@@ -86,7 +86,7 @@ class Window(QMainWindow):
 
 
     def initTrayIcon(self) -> None:
-        self.pomodoroIcon = QIcon("resources/pomodoro.png")
+        self.pomodoroIcon = QIcon("pomodoro.png")
         self.trayIcon = QSystemTrayIcon()
         self.trayIcon.setIcon(self.pomodoroIcon)
         self.trayIcon.show()
